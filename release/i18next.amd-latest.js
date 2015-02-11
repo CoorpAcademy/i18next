@@ -1,5 +1,5 @@
 // i18next, v1.7.7
-// Copyright (c)2014 Jan Mühlemann (jamuhl).
+// Copyright (c)2015 Jan Mühlemann (jamuhl).
 // Distributed under MIT license
 // http://i18next.com
 (function (root, factory) {
@@ -2102,6 +2102,7 @@
     i18n.functions = f;
     i18n.lng = lng;
     i18n.addPostProcessor = addPostProcessor;
+    i18n.applyReplacement = f.applyReplacement;
     i18n.options = o;
         
     return i18n; 
